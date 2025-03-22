@@ -1,3 +1,3 @@
-def call() {
-    sh "echo this is Jenkins Shared Library testing"
+def call(String name) {
+    sh "echo ${name} Hello, this is Jenkins Shared Library testing"
 }
